@@ -1,0 +1,54 @@
+footer {
+  align-items: center;
+  margin-top: 200px;
+  height: 300px;
+  display: flex;
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  background-color: #aaeede;
+}
+
+.footer_container {
+  display: flex;
+  padding-left: 310px;
+  gap: 150px;
+}
+
+.btns_header {
+  display: flex;
+  gap: 30px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.navlink {
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #000;
+}
+
+.logo img {
+  padding-left: 45px;
+  width: 50px;
+}
+
+
